@@ -7,7 +7,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   return (
     <Fragment>
       <div className="metaportal_fn_mobnav">
-        <div className="mob_top">
+      <div className="mob_top">
           <div className="social_trigger">
             <div className="trigger" onClick={() => navigationToggle(true)}>
               <span />
@@ -62,7 +62,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               <span>Wallet</span>
             </a>
           </div>
-        </div>
+          </div>
         <div className="mob_mid">
           <div className="logo">
             <Link href="/">
