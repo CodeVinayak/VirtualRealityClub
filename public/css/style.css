@@ -202,7 +202,7 @@ body{
 
 }
 #em{
-	font-size: 25px;
+	font-size: 22px;
 }
 body,
 html{
@@ -431,12 +431,12 @@ a.full_link{
 .metaportal_fn_mobnav .mob_bot{
 	display: none;
 	background: rgb(27,18,29);
-	padding: 21px 20px;
+	/* padding: 21px 20px; */
 	
 	overflow: hidden;
 }
 .metaportal_fn_mobnav .mob_bot ul{
-	margin: 15%;
+	/* margin: 15%; */
 	list-style-type: none;
 }
 .metaportal_fn_mobnav .mob_bot li{
@@ -1603,7 +1603,7 @@ a.full_link{
 }
 .fn_cs_steps .item_in{
 	height: 100%;
-	padding: 57px 50px 54px;
+	padding: 25px 25px 25px;
 	border-radius: 10px;
     background-color: rgba(255,255,255,.03);
 }
@@ -1727,7 +1727,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 
 #about{
-	padding: 120px 0;
+	padding: 150px 0;
 }
 
 
@@ -1879,9 +1879,10 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-left: -40px;
 	flex-wrap: wrap;
 	padding-right: 40px;
+	justify-content: center;
 }
 .fn_cs_collection .collection_top .item{
-	width: 31.2%;
+	width: 31%;
 }
 .fn_cs_collection .collection_top .item:nth-child(2),
 .fn_cs_collection .collection_top .item:nth-child(4){
@@ -1898,6 +1899,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-left: -40px;
 	flex-wrap: wrap;
 	padding-left: 40px;
+	justify-content: center;
 }
 .fn_cs_collection .collection_bottom .item{
 	width: 31.2%;
@@ -2970,7 +2972,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Page Title */
 .metaportal_fn_pagetitle{
-	padding: 239px 0 72px;
+	padding: 75px 0 25px;
 	text-align: center;
 }
 .metaportal_fn_pagetitle h3{
@@ -3681,6 +3683,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-bottom: 40px;
 }
 .nft__item{
+	img{
+		max-width: 50%;
+	}
 	width: 100%;
 	padding: 20px;
     border-radius: 10px;
@@ -3717,7 +3722,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .nft__item .img_holder{
 	border-radius: 10px;
 	overflow: hidden;
-	margin-bottom: 22px;
+	margin-bottom: 0px;
 }
 .metaportal_fn_similar{
 	margin-bottom: 110px;
@@ -4876,7 +4881,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Collection Page */
 .metaportal_fn_collectionpage{
-	padding: 150px 0;
+	padding: 25px 0;
 }
 .metaportal_fn_result_list{
 	overflow: hidden;
@@ -5311,7 +5316,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		padding-left: 25px;
 	}
 	.fn__gradient_title,
-	.fn__maintitle.big{font-size: 40px;}
+	.fn__maintitle.big{font-size: 30px;}
 	.fn_cs_slider .slider_top li.prev{left: -30px;}
 	.fn_cs_slider .slider_top li.next{margin-left: 30px;}
 	.fn_cs_counter_list li{padding-left: 80px;}
@@ -5386,7 +5391,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	.metaportal_fn_protected,
 	.metaportal_fn_404,
 	.metaportal_fn_coming_soon{
-		padding: 130px 0;
+		padding: 250px 0;
 	}
 	.metaportal_fn_404 h3{
 		font-size: 12vw;
@@ -5462,6 +5467,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	}
 	.fn_cs_about .right_in{
 		max-width: 100%;
+		margin-bottom: 10px;
 	}
 	.fn_cs_news .news_part{
 		-webkit-flex-direction: column;
@@ -5730,7 +5736,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .fn_cs_roadmap .step_holder{
 	padding: 50px;
 	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='15' ry='15' stroke='%23CCCCCC' stroke-width='1' stroke-dasharray='9%2c7' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-	border-radius: 15px;
+	/* border-radius: 15px; */
 	margin-bottom: 40px;
 	overflow: hidden;
 }

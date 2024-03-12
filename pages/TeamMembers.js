@@ -4,16 +4,16 @@ import { connect } from "react-redux";
 import Layout from "../src/layout/Layout";
 import PageBanner from "../src/layout/PageBanner";
 import { getNfts } from "../src/redux/actions/nfts";
-const Collection = ({ getNfts, nfts }) => {
-  useEffect(() => {
-    getNfts();
-  }, []);
-  const getSplitData = (type) => {
-    return type.split(" ").join("-");
-  };
+  const Collection = ({ getNfts, nfts }) => {
+    useEffect(() => {
+      getNfts();
+    }, []);
+    const getSplitData = (type) => {
+      return type.split(" ").join("-");
+    };
   return (
-    <Layout pageTitle={"Collection"}>
-      <PageBanner pageName={"Collection"} />
+    <Layout pageTitle={"Team Members"}>
+      <PageBanner pageName={"Team Members"} />
 
       {/* Collection Page */}
       <div className="metaportal_fn_collectionpage">
@@ -36,18 +36,22 @@ const Collection = ({ getNfts, nfts }) => {
                           className={
                             getSplitData(nft.type) +
                             " " +
-                            getSplitData(nft.special) +
-                            " " +
-                            getSplitData(nft.clothing)
+                            getSplitData(nft.special) 
+                            // +
+                            // " " +
+                            // getSplitData(nft.clothing)
                           }
                           key={i}
                         >
                           <div className="nft__item">
                             <div className="img_holder">
                               <img src={nft.image} alt="" />
-                              <Link href={`/nft/${nft.id}`}>
+                            </div>
+                            <div className="img_holder">
+                              <img src="" alt="" />
+                              {/* <Link href={`/nft/${nft.id}`}>
                                 <a className="full_link" />
-                              </Link>
+                              </Link> */}
                             </div>
                             <div className="title_holder">
                               <h3 className="fn_title">

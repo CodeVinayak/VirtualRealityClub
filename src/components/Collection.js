@@ -85,18 +85,6 @@ const Collection = () => {
               </div>
               <input type="hidden" defaultValue="/img/2.jpg" />
             </div>
-            <div className="item">
-              <div className="item_in">
-                <div className="img">
-                  <div
-                    className="abs_img"
-                    data-bg-img="/img/vicepresident.jpg"
-                  />
-                  <img src="/img/vicepresident.jpg" alt="" />
-                </div>
-              </div>
-              <input type="hidden" defaultValue="/img/vicepresident.jpg"/>
-            </div>
           </div>
         </div>
         <div className="fn_cs_desc">
@@ -104,8 +92,7 @@ const Collection = () => {
             Our team members at VIT AVR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
           </p>
           {/* <Link href="/collection"> */}
-          <Link href="/#home">
-
+          <Link href="/TeamMembers">
             <a className="metaportal_fn_button">
               <span>View All Team Members</span>
             </a>

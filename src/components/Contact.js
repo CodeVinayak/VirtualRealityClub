@@ -46,12 +46,13 @@ const Contact = () => {
                 <h3>
                   <a href="https://www.instagram.com/avr_vitc" target="_blank" rel="noreferrer">
                   <Image src="/img/instagram.png" alt="Instagram" width={50} height={50} /></a>
-               
+                  <span style={{ marginRight: '10px' }}></span>
                   <a href="https://twitter.com/ChennaiVit" target="_blank" rel="noreferrer">
                   <Image src="/img/twitter.png" alt="Twitter" width={50} height={50} /></a>  
-                
+                  <span style={{ marginRight: '10px' }}></span>
                   <a href="https://in.linkedin.com/in/vitchennai" target="_blank" rel="noreferrer">
                   <Image src="/img/linkedin.png" alt="LinkedIn" width={50} height={50} /></a>     
+                  <span style={{ marginRight: '10px' }}></span>
                 </h3>
                 
                 
