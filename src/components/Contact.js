@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
             </li>
             <li>
-              <div className="items">
+              <div className="item">
                 
                 <h4 className="socialse">Social</h4>
                 <h3>
